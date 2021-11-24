@@ -22,7 +22,7 @@ export default function UserBirthdayItem({ users, month }) {
             })}
         </ul>
       ) : (
-        <div className={s.noUsers}>No Employees</div>
+        <div className={s.noUsers}>Employees List is empty</div>
       )}
     </div>
   );

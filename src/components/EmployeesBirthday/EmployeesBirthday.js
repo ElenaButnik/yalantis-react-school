@@ -10,6 +10,7 @@ export default function EmployeesBirthday() {
   return (
     <div className={s.EmployeesBirthday}>
       <h2>Employees birthday</h2>
+      <hr/>
       {users.length === 0 ? (
         <div className={s.emptyList}>Employees List is empty</div>
       ) : (

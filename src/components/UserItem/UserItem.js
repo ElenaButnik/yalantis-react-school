@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { UserContext } from "../../UserContext";
 import PropTypes from "prop-types";
-import s from "./UserItem.module.css";
+import "./UserItem.css";
 
 export default function UserItem({ user }) {
   const [checked, setChecked] = useState(false);
@@ -14,12 +14,12 @@ export default function UserItem({ user }) {
   }, [users, user]);
 
   return (
-    <div className={s.userContainer}>
+    <div className='userContainer'>
       <div
-        className={`s.userName ${checked && "selected"}`}
+        className={`userName ${checked && 'selected'}`}
       >{`${user.firstName} ${user.lastName}`}</div>
-      <span className={s.radioButtons}>
-        <div>
+      <span className='radioButtons'>
+        <div className='buttonItem'>
           <input
             type="radio"
             name={user.id}
@@ -35,10 +35,10 @@ export default function UserItem({ user }) {
               });
             }}
           />
-          <span>active</span>
+          active
         </div>
 
-        <div>
+        <div className='buttonItem'>
           <input
             type="radio"
             name={user.id}
@@ -54,7 +54,7 @@ export default function UserItem({ user }) {
               });
             }}
           />
-          <span>not active</span>
+          not active
         </div>
       </span>
     </div>
