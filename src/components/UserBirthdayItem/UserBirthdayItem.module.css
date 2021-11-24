@@ -1,0 +1,17 @@
+
+.noUsers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    color: #000000;
+}
+
+.userBirthday {
+    font-family: Airal, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    color: #000000;
+    margin-bottom: 5px;
+}

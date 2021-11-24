@@ -1,0 +1,40 @@
+
+.radioButtons{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color: #000000;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.radioButtons div {
+    margin-top: 3px;
+}
+
+.userContainer {
+    text-align: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    flex: 1 0 25%;
+    margin: 20px 10px 10px 0px;
+    max-width: 200px;
+
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #000000;
+
+}
+
+.selected {
+    color: blue;
+    font-weight: bold;
+}
+
